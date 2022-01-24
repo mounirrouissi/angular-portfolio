@@ -1,0 +1,40 @@
+@import "../../../sass/variables";
+
+body{
+    height: 100%;
+width: 100%;
+    .home{
+        background: url("../../../assets/my-PhotoRoom.png") no-repeat ;
+        background-size: cover;
+        background-position: top;
+height: 100rem;
+width: 100%;
+        .content{
+            padding-top: 20rem;
+            align-items: center;
+            text-overflow: ellipsis;
+            @include titleText(4rem);
+            span{
+                color: red;
+            }
+        }
+    }
+    
+}
+
+@media (max-width:700px){
+
+    .home{
+.content{
+position: absolute;
+align-items: center;
+text-overflow: ellipsis;
+@include titleText(1.2rem);
+span{
+color: red;
+font-size: small;
+}
+}
+}
+
+}

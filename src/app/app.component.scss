@@ -1,0 +1,32 @@
+@import "../sass/variables";
+
+.header{
+    .navbar{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        height: 4rem;
+        background-color: gray;
+        
+        .logo{
+            @include titleText(2rem);
+            span{
+                color: blue;
+            }
+        }
+        .content{
+    margin-inline-start: auto;
+    a{
+        padding-right: 1.5rem;
+        color: black;
+    }
+    
+        }
+    }
+}
+
+.homePage{
+    
+
+
+}
